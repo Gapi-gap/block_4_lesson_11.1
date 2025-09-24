@@ -1,0 +1,5 @@
+*.filters
+*.user
+.vs/
+TestLibrary/
+x64/

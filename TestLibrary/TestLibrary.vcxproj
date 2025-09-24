@@ -127,12 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="TestLibrary.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Library\Library.vcxproj">
       <Project>{b3ded318-b80d-4c12-b404-50dd0e6f8cab}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LibraryTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
